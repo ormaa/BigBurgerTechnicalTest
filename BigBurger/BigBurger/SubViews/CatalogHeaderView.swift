@@ -40,8 +40,8 @@ struct CatalogHeaderViewView: View {
             Spacer(minLength: 8)
         }
         .frame(height: 32)
-//        .sheet(isPresented: $displayBasket) {
-//            ShopingCartView(controller: controller)
-//        }
+        .sheet(isPresented: $displayBasket) {
+            ShopingCartView(controller: controller)
+        }
     }
 }
