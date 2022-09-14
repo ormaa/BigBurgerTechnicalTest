@@ -40,8 +40,6 @@
 		09209E5328D2634900DD6657 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09209E5928D2634900DD6657 /* BigBurgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigBurgerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09209E5D28D2634900DD6657 /* BigBurgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBurgerTests.swift; sourceTree = "<group>"; };
-		09209E6728D2634900DD6657 /* BigBurgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBurgerUITests.swift; sourceTree = "<group>"; };
-		09209E6928D2634900DD6657 /* BigBurgerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBurgerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		09209E7D28D263FA00DD6657 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		09209E7F28D2641400DD6657 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		09209E8128D2642800DD6657 /* ShopingCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopingCartView.swift; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 			children = (
 				09209E4B28D2634700DD6657 /* BigBurger */,
 				09209E5C28D2634900DD6657 /* BigBurgerTests */,
-				09209E6628D2634900DD6657 /* BigBurgerUITests */,
 				09209E4A28D2634700DD6657 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,15 +117,6 @@
 				09209E5D28D2634900DD6657 /* BigBurgerTests.swift */,
 			);
 			path = BigBurgerTests;
-			sourceTree = "<group>";
-		};
-		09209E6628D2634900DD6657 /* BigBurgerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				09209E6728D2634900DD6657 /* BigBurgerUITests.swift */,
-				09209E6928D2634900DD6657 /* BigBurgerUITestsLaunchTests.swift */,
-			);
-			path = BigBurgerUITests;
 			sourceTree = "<group>";
 		};
 		09209E7628D263B000DD6657 /* MainViews */ = {
