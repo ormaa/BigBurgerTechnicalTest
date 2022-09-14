@@ -8,9 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @State private var willMoveToNextScreen = false
+
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Spacer()
+            Text("MainViewtitle".localized())
+                .font(.largeTitle)
+            Spacer(minLength: 8)
+
+            Image("burger")
+                .resizable()
+                .frame(width: 128, height: 128)
+
+            Spacer(minLength: 8)
+            Text("🙃")
+                .font(.largeTitle)
+            Spacer()
+        }
+        .navigate(to: MainView(), when: $willMoveToNextScreen)
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                self.willMoveToNextScreen = true
+            }
+        }
     }
 }
 
