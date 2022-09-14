@@ -10,27 +10,45 @@ import XCTest
 
 class BigBurgerTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+    //    override func setUpWithError() throws {
+    //        // Put setup code here. This method is called before the invocation of each test method in the class.
+    //    }
+    //
+    //    override func tearDownWithError() throws {
+    //        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    //    }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    func testDecodeBurgers() throws {
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
+        let service = Service()
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+        if let mockJson = service.getMockBurgersString() {
+            let burgers = JSonDecoder.decodeBurgers(jsonString: mockJson)
+            XCTAssert(burgers.count == 13)
+            Logger.log("UnitTest decodeBurgers ok")
+        } else {
+            XCTAssertThrowsError("Cannot decode json")
         }
+
+
     }
 
+    func testImageDownloader() {
+
+        let imageDownloader = ImageDownloader()
+
+        let expectation = self.expectation(description: "Download")
+
+        // this image is 640, 562 ( size )
+        imageDownloader.donwloadImage(urlString: "https://www.fine-s.fr/9959/test.jpg")
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            expectation.fulfill()
+        }
+        waitForExpectations(timeout: 1.5, handler: nil)
+
+        XCTAssert(imageDownloader.image.size.width == 640)
+        Logger.log("downloadImage ok")
+
+    }
 }
