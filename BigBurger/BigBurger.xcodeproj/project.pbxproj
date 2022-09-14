@@ -12,6 +12,11 @@
 		09209E5128D2634900DD6657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09209E5028D2634900DD6657 /* Assets.xcassets */; };
 		09209E5428D2634900DD6657 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09209E5328D2634900DD6657 /* Preview Assets.xcassets */; };
 		09209E5E28D2634900DD6657 /* BigBurgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E5D28D2634900DD6657 /* BigBurgerTests.swift */; };
+		09209E7E28D263FA00DD6657 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09209E7D28D263FA00DD6657 /* Localizable.strings */; };
+		09209E8028D2641400DD6657 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E7F28D2641400DD6657 /* MainView.swift */; };
+		09209E8228D2642800DD6657 /* ShopingCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E8128D2642800DD6657 /* ShopingCartView.swift */; };
+		09209E8428D2643500DD6657 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E8328D2643500DD6657 /* ToastView.swift */; };
+		09209E8628D2644600DD6657 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E8528D2644600DD6657 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 		09209E5D28D2634900DD6657 /* BigBurgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBurgerTests.swift; sourceTree = "<group>"; };
 		09209E6728D2634900DD6657 /* BigBurgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBurgerUITests.swift; sourceTree = "<group>"; };
 		09209E6928D2634900DD6657 /* BigBurgerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBurgerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		09209E7D28D263FA00DD6657 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		09209E7F28D2641400DD6657 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		09209E8128D2642800DD6657 /* ShopingCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopingCartView.swift; sourceTree = "<group>"; };
+		09209E8328D2643500DD6657 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		09209E8528D2644600DD6657 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +86,16 @@
 		09209E4B28D2634700DD6657 /* BigBurger */ = {
 			isa = PBXGroup;
 			children = (
+				09209E7C28D263E200DD6657 /* Extensions */,
+				09209E7B28D263DB00DD6657 /* Service */,
+				09209E7A28D263D400DD6657 /* Tools */,
+				09209E7928D263CE00DD6657 /* Entities */,
+				09209E7828D263C500DD6657 /* SubViews */,
+				09209E7628D263B000DD6657 /* MainViews */,
 				09209E4C28D2634700DD6657 /* BigBurgerApp.swift */,
-				09209E4E28D2634700DD6657 /* ContentView.swift */,
 				09209E5028D2634900DD6657 /* Assets.xcassets */,
 				09209E5228D2634900DD6657 /* Preview Content */,
+				09209E7D28D263FA00DD6657 /* Localizable.strings */,
 			);
 			path = BigBurger;
 			sourceTree = "<group>";
@@ -107,6 +123,53 @@
 				09209E6928D2634900DD6657 /* BigBurgerUITestsLaunchTests.swift */,
 			);
 			path = BigBurgerUITests;
+			sourceTree = "<group>";
+		};
+		09209E7628D263B000DD6657 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				09209E4E28D2634700DD6657 /* ContentView.swift */,
+				09209E7F28D2641400DD6657 /* MainView.swift */,
+				09209E8128D2642800DD6657 /* ShopingCartView.swift */,
+				09209E8328D2643500DD6657 /* ToastView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		09209E7828D263C500DD6657 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		09209E7928D263CE00DD6657 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		09209E7A28D263D400DD6657 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				09209E8528D2644600DD6657 /* Logger.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		09209E7B28D263DB00DD6657 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		09209E7C28D263E200DD6657 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09209E5428D2634900DD6657 /* Preview Assets.xcassets in Resources */,
+				09209E7E28D263FA00DD6657 /* Localizable.strings in Resources */,
 				09209E5128D2634900DD6657 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				09209E4F28D2634700DD6657 /* ContentView.swift in Sources */,
+				09209E8628D2644600DD6657 /* Logger.swift in Sources */,
+				09209E8228D2642800DD6657 /* ShopingCartView.swift in Sources */,
+				09209E8028D2641400DD6657 /* MainView.swift in Sources */,
 				09209E4D28D2634700DD6657 /* BigBurgerApp.swift in Sources */,
+				09209E8428D2643500DD6657 /* ToastView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
