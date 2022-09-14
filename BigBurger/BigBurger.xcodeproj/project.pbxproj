@@ -20,6 +20,16 @@
 		09209E8A28D264E500DD6657 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E8728D264E500DD6657 /* View+Extension.swift */; };
 		09209E8B28D264E500DD6657 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E8828D264E500DD6657 /* Array+Extension.swift */; };
 		09209E8C28D264E500DD6657 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E8928D264E500DD6657 /* String+Extension.swift */; };
+		09209E8E28D266AA00DD6657 /* BurgerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E8D28D266AA00DD6657 /* BurgerEntity.swift */; };
+		09209E9028D266C400DD6657 /* JsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E8F28D266C400DD6657 /* JsonDecoder.swift */; };
+		09209E9228D266E200DD6657 /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 09209E9128D266E200DD6657 /* mock.json */; };
+		09209E9428D2671400DD6657 /* CatalogHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E9328D2671400DD6657 /* CatalogHeaderView.swift */; };
+		09209E9628D2672400DD6657 /* BurgerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E9528D2672400DD6657 /* BurgerListView.swift */; };
+		09209E9828D2673200DD6657 /* BurgerCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E9728D2673200DD6657 /* BurgerCellView.swift */; };
+		09209E9A28D2677000DD6657 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E9928D2677000DD6657 /* Service.swift */; };
+		09209E9C28D2678200DD6657 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E9B28D2678200DD6657 /* ImageDownloader.swift */; };
+		09209E9E28D2679500DD6657 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E9D28D2679500DD6657 /* Controller.swift */; };
+		09209EA028D267E800DD6657 /* SlidingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09209E9F28D267E800DD6657 /* SlidingAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,16 @@
 		09209E8728D264E500DD6657 /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		09209E8828D264E500DD6657 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		09209E8928D264E500DD6657 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		09209E8D28D266AA00DD6657 /* BurgerEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerEntity.swift; sourceTree = "<group>"; };
+		09209E8F28D266C400DD6657 /* JsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecoder.swift; sourceTree = "<group>"; };
+		09209E9128D266E200DD6657 /* mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
+		09209E9328D2671400DD6657 /* CatalogHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogHeaderView.swift; sourceTree = "<group>"; };
+		09209E9528D2672400DD6657 /* BurgerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerListView.swift; sourceTree = "<group>"; };
+		09209E9728D2673200DD6657 /* BurgerCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerCellView.swift; sourceTree = "<group>"; };
+		09209E9928D2677000DD6657 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		09209E9B28D2678200DD6657 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		09209E9D28D2679500DD6657 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		09209E9F28D267E800DD6657 /* SlidingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +153,10 @@
 		09209E7828D263C500DD6657 /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				09209E9328D2671400DD6657 /* CatalogHeaderView.swift */,
+				09209E9528D2672400DD6657 /* BurgerListView.swift */,
+				09209E9728D2673200DD6657 /* BurgerCellView.swift */,
+				09209E9F28D267E800DD6657 /* SlidingAnimationView.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -140,6 +164,9 @@
 		09209E7928D263CE00DD6657 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				09209E8D28D266AA00DD6657 /* BurgerEntity.swift */,
+				09209E8F28D266C400DD6657 /* JsonDecoder.swift */,
+				09209E9128D266E200DD6657 /* mock.json */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -155,6 +182,9 @@
 		09209E7B28D263DB00DD6657 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				09209E9928D2677000DD6657 /* Service.swift */,
+				09209E9B28D2678200DD6657 /* ImageDownloader.swift */,
+				09209E9D28D2679500DD6657 /* Controller.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -253,6 +283,7 @@
 				09209E5428D2634900DD6657 /* Preview Assets.xcassets in Resources */,
 				09209E7E28D263FA00DD6657 /* Localizable.strings in Resources */,
 				09209E5128D2634900DD6657 /* Assets.xcassets in Resources */,
+				09209E9228D266E200DD6657 /* mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +301,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09209EA028D267E800DD6657 /* SlidingAnimationView.swift in Sources */,
 				09209E4F28D2634700DD6657 /* ContentView.swift in Sources */,
+				09209E9828D2673200DD6657 /* BurgerCellView.swift in Sources */,
+				09209E9C28D2678200DD6657 /* ImageDownloader.swift in Sources */,
+				09209E9A28D2677000DD6657 /* Service.swift in Sources */,
+				09209E9028D266C400DD6657 /* JsonDecoder.swift in Sources */,
 				09209E8C28D264E500DD6657 /* String+Extension.swift in Sources */,
+				09209E9E28D2679500DD6657 /* Controller.swift in Sources */,
 				09209E8628D2644600DD6657 /* Logger.swift in Sources */,
+				09209E9628D2672400DD6657 /* BurgerListView.swift in Sources */,
 				09209E8228D2642800DD6657 /* ShopingCartView.swift in Sources */,
+				09209E9428D2671400DD6657 /* CatalogHeaderView.swift in Sources */,
 				09209E8028D2641400DD6657 /* MainView.swift in Sources */,
 				09209E4D28D2634700DD6657 /* BigBurgerApp.swift in Sources */,
 				09209E8A28D264E500DD6657 /* View+Extension.swift in Sources */,
 				09209E8428D2643500DD6657 /* ToastView.swift in Sources */,
 				09209E8B28D264E500DD6657 /* Array+Extension.swift in Sources */,
+				09209E8E28D266AA00DD6657 /* BurgerEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
