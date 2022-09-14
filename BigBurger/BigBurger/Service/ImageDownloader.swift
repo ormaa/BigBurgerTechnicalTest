@@ -22,7 +22,7 @@ class ImageDownloader: ObservableObject {
 #if DEBUG
         self.image = UIImage(imageLiteralResourceName: "burger")
 #else
-        downloadImage(urlString: "https://www.fine-s.fr/9959/test.jpg")
+        donwloadImage(urlString: "https://www.fine-s.fr/9959/test.jpg")
 #endif
     }
 
