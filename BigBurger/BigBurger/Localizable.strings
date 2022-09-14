@@ -5,3 +5,14 @@
   Created by olivier robin on 14/09/2022.
   
 */
+
+
+
+"ShoppingCancelBtnTitle" = "Cancel";
+"ClickToStartPaiement" = "Click to start payment";
+"ShopingCartTitle" = "Shopping Cart";
+"MainViewtitle" = "Welcome to Big burger";
+"AvailableBurgers" = "available Burgers";
+"ItemRemoved" = "Item removed from basket 🙃";
+"ItemAdded" = "Item added to basket 🙃";
+"FetchingError" = "Error while fetching burgers list";
