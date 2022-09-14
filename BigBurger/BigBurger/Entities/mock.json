@@ -1,0 +1,82 @@
+[
+    {
+        "ref": "1",
+        "title": "The Big Burger",
+        "description": "Un classique mais tellement bon.",
+        "thumbnail": "https://bigburger.useradgents.com/images/1.png",
+        "price": 820
+    },
+    {
+        "ref": "2",
+        "title": "The Big Cheese Burger",
+        "description": "Avec du fromage c'est toujours meilleur.",
+        "thumbnail": "https://bigburger.useradgents.com/images/2.png",
+        "price": 830
+    }, {
+        "ref": "3",
+        "title": "The Big Bacon Burger",
+        "description": "C'est comme le The Big Cheese Burger mais, avec du bacon en plus. Irrésistible!",
+        "thumbnail": "https://bigburger.useradgents.com/images/3.png",
+        "price": 885
+    }, {
+        "ref": "4",
+        "title": "The Big Chiken Burger",
+        "description": "C'est comme le The Big Cheese Burger mais, du poulet frit à la place du steak-haché. Succulent!",
+        "thumbnail": "https://bigburger.useradgents.com/images/4.png",
+        "price": 810
+    }, {
+        "ref": "5",
+        "title": "The Big Big Burger",
+        "description": "Un mélange entre le Cheese et le Chicken burger. Pour les faims de loup!",
+        "thumbnail": "https://bigburger.useradgents.com/images/5.png",
+        "price": 1120
+    }, {
+        "ref": "6",
+        "title": "The Big Veggie Burger",
+        "description": "NO MEAT mais, extra Tomates !",
+        "thumbnail": "https://bigburger.useradgents.com/images/6.png",
+        "price": 600
+    }, {
+        "ref": "7",
+        "title": "The Big Salad",
+        "description": "Une énorme salade, préparé sur place.",
+        "thumbnail": "https://bigburger.useradgents.com/images/7.png",
+        "price": 820
+    }, {
+        "ref": "8",
+        "title": "The Big Fries",
+        "description": "Plein de frites.",
+        "thumbnail": "https://bigburger.useradgents.com/images/8.png",
+        "price": 799
+    }, {
+        "ref": "9",
+        "title": "The Big Coke",
+        "description": "Le vrai Coca avec des bules.",
+        "thumbnail": "https://bigburger.useradgents.com/images/images/9.png",
+        "price": 130
+    }, {
+        "ref": "10",
+        "title": "The Big Water",
+        "description": "De l'eau, pure pour les dure",
+        "thumbnail": "https://bigburger.useradgents.com/images/images/10.png",
+        "price": 100
+    }, {
+        "ref": "11",
+        "title": "Nuggets",
+        "description": "Du poulet frits avec amour.",
+        "thumbnail": "https://bigburger.useradgents.com/images/11.png",
+        "price": 400
+    }, {
+        "ref": "12",
+        "title": "The Big Cake",
+        "description": "Un petit dessert pour la route.",
+        "thumbnail": "https://bigburger.useradgents.com/images/12.png",
+        "price": 350
+    }, {
+        "ref": "13",
+        "title": "Apple",
+        "description": "Mangez des pommes!",
+        "thumbnail": "https://bigburger.useradgents.com/images/13.png",
+        "price": 100
+    }
+]
