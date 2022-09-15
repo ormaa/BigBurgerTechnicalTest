@@ -69,12 +69,15 @@ class Controller: ObservableObject {
 #else
         Logger.log("RELEASE using Webservice calls")
 
-        // TODO : implement webservice calls
-        let service = Service()
-        service.fetchBurgersDatas(urlString: urlString)
-        self.burgers = service.burgers              // TODO : remove the @Published inside service
+        Task {
+            do {
+                let service = Service()
+                self.burgers = try await service.fetchBurgersDatas(urlString: urlString)
+            } catch {
+                Logger.log("FetchingError".localized() + "\(error)")
+            }
 
+        }
 #endif
-
     }
 }

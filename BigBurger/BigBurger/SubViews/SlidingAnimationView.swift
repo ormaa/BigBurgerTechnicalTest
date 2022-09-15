@@ -12,13 +12,11 @@ struct SlidingAnimationView: View {
 
     @State private var startAnimation = false
 
-    private let funnyText = "Le gras c'est la vie 🙃"
-
     var body: some View {
         //     GeometryReader { proxy in
         VStack(spacing: 0) {
             if startAnimation {
-                Text(funnyText)
+                Text("FunnyText".localized())
                     .font(.title)
                     .transition(.move(edge: .leading))
                 // i see the deprecation, but using the new syntax, it break the animation :

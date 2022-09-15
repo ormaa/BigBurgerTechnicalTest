@@ -46,7 +46,7 @@ struct MainView: View {
             // request the burger list catalog
             .task {
                 do {
-                    try await controller.fetchBurgers(urlString: "https://bigburger.useradgents.com/catalog")
+                    try await controller.fetchBurgers(urlString: catalogURLString)
                 } catch {
                     Logger.log("FetchingError".localized() + "\(error)")
                 }
