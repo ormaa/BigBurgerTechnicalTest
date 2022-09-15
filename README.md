@@ -23,7 +23,7 @@ using Viper like pattern
 add viewmodifier to simplify some Views
 separate in several layers mock and web service calls
 
-When this test was requested, it was mentionned I do not spend to mush time on this, 
+When this test was requested, it was mentionned I do not spend to much time on it, 
 I decided to use 4 hour : it was 5 hours.
 
 Enjoy
